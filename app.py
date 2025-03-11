@@ -89,7 +89,7 @@ X_projected=pca.fit_transform(x)
 # ab apna tranform data ko 0 aur 1 dimension may slice kr dain gy
 X1=X_projected[:,0]
 X2=X_projected[:,1]
-st.write(X2)
+#st.write(X2)
 fig=plt.figure()
 plt.scatter(X1,X2,c=y,cmap='viridis',alpha=0.8)
 plt.xlabel('Principal Component 1')
